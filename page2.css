@@ -8,6 +8,10 @@ background: radial-gradient(ellipse at top, rgb(120, 83, 200), transparent),
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
 body{
     transform: translate(0%, 50%);
     margin: 0px auto;
@@ -85,4 +89,18 @@ a:hover{
 a:active{
     text-decoration: none;
     font-weight: bold;
+}
+h7{
+    font-weight: bold;
+    text-decoration: underline;
+}
+div#html{
+    transform: translate(15%, 50%);
+    color: lightsalmon;
+    text-shadow: 2px 2px black;
+}
+div#css{
+    transform: translate(-15%, -80%);
+    color: lightskyblue;
+    text-shadow: 2px 2px black;
 }
